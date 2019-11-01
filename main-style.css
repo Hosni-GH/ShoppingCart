@@ -1,0 +1,82 @@
+.container-fluid {
+    padding: 0 !important;
+}
+
+div#navbarText {
+    max-width: 75%;
+}
+
+a.navbar-brand {
+    color: green !important;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.dropdown-menu.show {
+    background: rgba(52, 58, 64, 0.75);
+}
+
+a.dropdown-item:hover {
+    background-color: rgb(52, 58, 64);
+}
+
+
+/*
+.bg-banner{
+    background-image: url("./img/shopping-banner.jpg");
+    min-height:250px !important;
+}*/
+
+section.card-content {
+    overflow: hidden;
+}
+
+.col-12.shopping-card-header {
+    background: #343a40!important;
+    color: white;
+    padding: 10px 50px;
+}
+
+section.card-content {
+    margin: 20px;
+}
+
+.shopping-card-header p {
+    margin: 0;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+body {
+    background-color: lightgrey !important;
+}
+
+.card-content .row {
+    background: white;
+}
+
+.product-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    justify-content: space-around;
+    border-bottom: 2px solid grey;
+}
+
+button.btn.btn-success {
+    width: 40px;
+    border-radius: 50%;
+    height: 40px;
+    margin: 10px;
+}
+
+.btn-delete button.btn.btn-outline-danger {
+    border: none !important;
+}
+.fa-heart{
+    margin-left:10px;   
+}
+.fa-heart:hover {
+    cursor: pointer;
+}
